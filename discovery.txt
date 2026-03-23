@@ -1,0 +1,3 @@
+/var/log/syslog
+/opt/alpha/mission.txt
+/var/tmp/.blackout/token
