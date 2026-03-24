@@ -1,3 +1,17 @@
-/var/log/syslog
-/opt/alpha/mission.txt
-/var/tmp/.blackout/token
+STEP 2: TARGET ACQUISITION (THE HUNT)
+
+Target 1: The System Logs
+Log Path: /var/log/syslog
+Status: Veryfied existence of syslog and auth.log.
+
+Target 2: The Secret Mission
+Mission Path: /opt/alpha/mission.txt
+Mission Secret:" Mission Secure: The system is yours. Do not fear the dark."
+
+Target 3: The Hidden Token
+Token Path: /var/tmp/.blackout/token
+Token Secret: Token [9948-ABX-77]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Report generate by: Fran707nana
+Session: 01 Scavenger Hunt
