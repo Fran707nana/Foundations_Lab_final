@@ -1,9 +1,12 @@
+default via 10.0.2.2 dev enp0s3 
+10.0.0.0/24 dev enp0s3 proto kernel scope link src 10.0.0.2 
+10.0.2.0/24 dev enp0s3 proto kernel scope link src 10.0.2.15 
 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
-From 10.0.0.15 icmp_seq=1 Destination Host Unreachable
-From 10.0.0.15 icmp_seq=2 Destination Host Unreachable
-From 10.0.0.15 icmp_seq=3 Destination Host Unreachable
-From 10.0.0.15 icmp_seq=4 Destination Host Unreachable
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=255 time=56.3 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=255 time=38.2 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=255 time=45.5 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=255 time=30.4 ms
 
 --- 8.8.8.8 ping statistics ---
-4 packets transmitted, 0 received, +4 errors, 100% packet loss, time 3064ms
-pipe 4
+4 packets transmitted, 4 received, 0% packet loss, time 3526ms
+rtt min/avg/max/mdev = 30.397/42.583/56.297/9.543 ms
