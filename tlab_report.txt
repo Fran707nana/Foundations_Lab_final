@@ -1,0 +1,20 @@
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on enp0s3, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+19:44:46.067848 IP6 2607:fb91:5082:258a:c5c2:4e29:33ad:99de.44152 > 2604:a880:4:1d0::1f1:2000.80: Flags [S], seq 2804198543, win 64800, options [mss 1440,sackOK,TS val 3586091791 ecr 0,nop,wscale 9], length 0
+19:44:46.269602 IP6 2604:a880:4:1d0::1f1:2000.80 > 2607:fb91:5082:258a:c5c2:4e29:33ad:99de.44152: Flags [S.], seq 3762854038, ack 2804198544, win 64260, options [mss 1376,sackOK,TS val 2961216088 ecr 3586091791,nop,wscale 7], length 0
+19:44:46.269894 IP6 2607:fb91:5082:258a:c5c2:4e29:33ad:99de.44152 > 2604:a880:4:1d0::1f1:2000.80: Flags [.], ack 1, win 127, options [nop,nop,TS val 3586091993 ecr 2961216088], length 0
+19:44:46.270402 IP6 2607:fb91:5082:258a:c5c2:4e29:33ad:99de.44152 > 2604:a880:4:1d0::1f1:2000.80: Flags [P.], seq 1:79, ack 1, win 127, options [nop,nop,TS val 3586091993 ecr 2961216088], length 78: HTTP: GET / HTTP/1.1
+19:44:46.474328 IP6 2604:a880:4:1d0::1f1:2000.80 > 2607:fb91:5082:258a:c5c2:4e29:33ad:99de.44152: Flags [.], ack 79, win 502, options [nop,nop,TS val 2961216288 ecr 3586091993], length 0
+19:44:46.474334 IP6 2604:a880:4:1d0::1f1:2000.80 > 2607:fb91:5082:258a:c5c2:4e29:33ad:99de.44152: Flags [P.], seq 1:2729, ack 79, win 502, options [nop,nop,TS val 2961216289 ecr 3586091993], length 2728: HTTP: HTTP/1.1 200 OK
+19:44:46.474335 IP6 2604:a880:4:1d0::1f1:2000.80 > 2607:fb91:5082:258a:c5c2:4e29:33ad:99de.44152: Flags [.], seq 2729:4093, ack 79, win 502, options [nop,nop,TS val 2961216289 ecr 3586091993], length 1364: HTTP
+19:44:46.474470 IP6 2607:fb91:5082:258a:c5c2:4e29:33ad:99de.44152 > 2604:a880:4:1d0::1f1:2000.80: Flags [.], ack 2729, win 138, options [nop,nop,TS val 3586092197 ecr 2961216289], length 0
+19:44:46.474677 IP6 2607:fb91:5082:258a:c5c2:4e29:33ad:99de.44152 > 2604:a880:4:1d0::1f1:2000.80: Flags [.], ack 4093, win 143, options [nop,nop,TS val 3586092198 ecr 2961216289], length 0
+19:44:46.476505 IP6 2604:a880:4:1d0::1f1:2000.80 > 2607:fb91:5082:258a:c5c2:4e29:33ad:99de.44152: Flags [P.], seq 4093:5457, ack 79, win 502, options [nop,nop,TS val 2961216289 ecr 3586091993], length 1364: HTTP
+19:44:46.476509 IP6 2604:a880:4:1d0::1f1:2000.80 > 2607:fb91:5082:258a:c5c2:4e29:33ad:99de.44152: Flags [P.], seq 5457:5949, ack 79, win 502, options [nop,nop,TS val 2961216289 ecr 3586091993], length 492: HTTP
+19:44:46.476540 IP6 2607:fb91:5082:258a:c5c2:4e29:33ad:99de.44152 > 2604:a880:4:1d0::1f1:2000.80: Flags [.], ack 5457, win 149, options [nop,nop,TS val 3586092199 ecr 2961216289], length 0
+19:44:46.476731 IP6 2607:fb91:5082:258a:c5c2:4e29:33ad:99de.44152 > 2604:a880:4:1d0::1f1:2000.80: Flags [.], ack 5949, win 154, options [nop,nop,TS val 3586092200 ecr 2961216289], length 0
+19:44:46.477704 IP6 2607:fb91:5082:258a:c5c2:4e29:33ad:99de.44152 > 2604:a880:4:1d0::1f1:2000.80: Flags [F.], seq 79, ack 5949, win 154, options [nop,nop,TS val 3586092201 ecr 2961216289], length 0
+19:44:46.576897 IP6 2604:a880:4:1d0::1f1:2000.80 > 2607:fb91:5082:258a:c5c2:4e29:33ad:99de.44152: Flags [F.], seq 5949, ack 79, win 502, options [nop,nop,TS val 2961216471 ecr 3586091993], length 0
+15 packets captured
+18 packets received by filter
+0 packets dropped by kernel
