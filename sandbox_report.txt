@@ -1,0 +1,20 @@
+QUESTION 1: What does ping: google.com: temporary failure in name resolution mean? Let's star with the command
+itself "Ping -c 4 google.com" let's break it down first "Ping"this command sends a signal to another computer and wait
+for a response back to see if both can communicate. The "-c" command that stand for for "count" it tells the ping to
+send in this case "4" signals and stop, and well the signal target is "google.com". Ping was trying to see if this 
+computer can communicate with google but there was a failure. "Temporary failure" was the outcome of the ping -c 4
+google.com due to the fact the Virtual Machine(VM) is isolated. The VM is currently on "Hots-Only Adapter Network"
+which means it cannot access the internet in this case means it cannot communicate with the internet(google.com) that
+is why the command ping couldn't not work. Next is the "name resolution" when one types "google.com" the VM checks
+its own memory to see if it has "google.com" but it doesn't then VM tries to ask a DNS Server (a server that is on
+the internet) but since the VM is on "Host-Only Adaptor" the VM cannot communication does't work and the VM gives up
+and say "temporary failure in name resolution".
+
+QUESTION 2: Why Bridged mode gives malware a map to your local network? "Bridged Adaptor" like the name implies it's 
+a bridged and what is a bridge? Well a bridge connects two side, example the bridged connects two side of a river;
+on ine side is point A and on the other side point B. In this anology point A is the VM and point B is the home 
+network. Bridge allows the VM to see each device that is connected to the network. If there is a malware inside
+the VM and is on bridged adaptor mode that means the malware can easily access and harm every device connected to the
+network. Malware doesn't need an invitations--it just walks across the bridge on it's own like this; malware inside VM, 
+automatically scans the network and see who else is connected to the network, then the malware picks a target and 
+starts to cause destrouction. That is how bridge adaptor mode is an easy path for the malware.  
