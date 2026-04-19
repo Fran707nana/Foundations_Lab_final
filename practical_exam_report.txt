@@ -1,6 +1,7 @@
 ==================================================
 SESSION 17: PRACTICAL EXAM REPORT
-Operator: [Name Here====================================================
+Operator: [ Franklin G ]
+==================================================
 TASK 1 (FIND): What single command did you use to 
 find all .log files owned by root?
 [find / -user root -name "*.log" 2>/dev/null]
