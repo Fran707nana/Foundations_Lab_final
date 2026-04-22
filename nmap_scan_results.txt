@@ -1,0 +1,23 @@
+==================================================
+SESSION 20: NETWORK ENUMERATION MAP
+Target Subnet: 172.99.0.0/24
+==================================================
+
+HOST 1 (172.99.0.5)
+* Open Ports: [80/tcp]
+* Service/Version: [http / nginx 1.29.8]
+
+HOST 2 (172.99.0.6)
+* Open Ports: [6379/tcp]
+* Service/Version: [redis / redis key-value store 8.6.2]
+
+HOST 3 (172.99.0.7)
+* Open Ports: [80/tcp]
+* Service/Version: [http / Apache httpd 2.4.66 ((Unix))]
+
+QUESTIONS:
+1. What Nmap flag did you use to find the specific software versions running on these ports?
+Answer: The one Nmao flag that I used was -sV; this flags tell Nmap to open ports and identify the sotware name and version running on each one.
+
+2. Why is it dangerous to run an intense scan (like -A) on a fragile legacy system?
+Answer: Intense scan (like -A) send a high volume of probes rapidly. A fragile legacy system may not be able to handle that many probes, causing it to crash, freeze, or become unresponsive, meaning it can potentially take down a critical/great value service with it.  
