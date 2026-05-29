@@ -1,43 +1,43 @@
-# Foundations Lab Final: The Professional Identity & Workbench 
+# Week 6: The Forge Final & Hardened Outpost (Advanced Troubleshooting & Enterprise Architecture)
 
-**Author:** Franklin Guerrero 
-**Course:** Cybersecurity Foundations Intensive 
-**Date:** February 25, 2026
-**Instruction:** Night 1 Cyber Tutor 
-**Institutional Affiliation:** The Knowledge House
+### 📌 Overview
+
+This repository documents the culmination of Sprint 1, marking the transition from a technical practitioner to an enterprise systems architect and defensive engineer. This module focused on high stakes, rapid diagnostics and full stack integration across hybrid environments. The core focus was mastering the "Outside In" troubleshooting methodology to systematically identify and remediate live system sabotages, performing under rigorous, unassisted technical exam conditions, and solo architecting a hardened, cross platform enterprise infrastructure blueprint from a completely blank slate.
+
+### 🛠️ Core Technical Proficiencies Mastered
+
+* **Outside In Defensive Troubleshooting:** Perfected structural systemic triage by mapping runtime failures directly to OSI Layers 3 (Network), 4 (Transport), and 7 (Application), utilizing a strict investigative pipeline: `ping` → `netcat` → `logs` → `permissions`.
+* **Cross Platform Enterprise Integration:** Engineered cross platform trust environments by promoting Windows Server instances to active Domain Controllers (Active Directory) and securely joining Linux server nodes to the centralized domain infrastructure.
+* **Full Stack Capstone Architecture:** Synthesized Linux systems administration, advanced software defined networking, Python security automation, and air gapped Docker Compose orchestration into a unified enterprise defense ecosystem.
+* **Technical Documentation Engineering:** Developed professional grade Security Architecture Documents (SAD) natively in Markdown, detailing system topologies, threat models, and explicit security controls for corporate ingestion.
+
+---
+
+### 📂 Advanced Infrastructure & Diagnostic Portfolio
+
+#### 📁 Session 16: The Architect's War Room (OSI Troubleshooting)
+* **Objective:** Diagnose and repair live, multi tiered infrastructure failures under production break conditions using the Outside In methodology.
+* **Practical Application (The Break/Fix Gauntlet):** Initialized a deliberate system sabotage payload, isolated a critical file permission lockout (Layer 7 access control failure), resolved a breaking Docker port binding conflict (Layer 4 transport collision), and verified system restoration using `nc`, `ls -la`, and `systemctl`.
+* **Core Artifact:** `readiness_check.log`
+
+#### 📁 Session 17: The Forge Final (Technical Diagnostic)
+* **Objective:** Demonstrate absolute operational mastery across all five core engineering domains under strict, unassisted testing constraints.
+* **Practical Application (The Practical Exam):** Interrogated the Linux file system to locate hidden, root owned administrative `.log` streams, programmatically migrated the data profiles without service disruption, and strictly hardened their security postures via absolute privilege encapsulation (`chmod`/`chown`).
+* **Core Artifact:** `practical_exam_report.txt`
+
+#### 📁 Session 18: The Capstone — The Hardened Outpost
+* **Objective:** Solo deploy a completely integrated, secure enterprise network infrastructure for a corporate entity within a highly constrained 3 hour deployment window.
+* **Practical Application (Operation Titan Outpost):** Built a hardened multi platform domain matrix, deployed a custom Python background auditing script, and established an entirely air gapped container orchestrator fleet to isolate sensitive client datastores from the public internet perimeter.
+* **Core Artifact:** `HardenedOutpost_SAD.pdf`
 
 ---
 
-## Execute Summary 
-This repository serves as the foundational technical workbench for my professional cybersecurity identity. It establishes a version-controlled environment using Git and VS Code to ensure all future security documentation meets industry standards for integrity and auditability.
+### 🛡️ Capstone Integration: Week 6 Technical Implementation Matrix
 
-## Environment Details 
-* **Hardware:** lenovo x64 Systems 
-* **Version Control:** Git Version 2.53.0.windows.1
-* **Integrated Development Environment (IDE):** VS Code version 1.109.5
+| Tool / Artifact | Engineering Mechanics Highlighted | Core Systems/Diagnostic Engines |
+| :--- | :--- | :--- |
+| **`readiness_check.log`** | OSI triage, port conflict mitigation, permission recovery, service unit binding | Linux Systemd, Docker CLI, Netcat, Ping |
+| **`practical_exam_report.txt`** | Privilege escalation handling, root file hunting, discretionary access control (DAC) hardening | Linux Kernel, Security Auditing CLI |
+| **`HardenedOutpost_SAD.pdf`** | Active Directory forest promotion, Linux Windows domain joining, air gapped Docker Compose engineering | Windows Server, Linux Samba/SSSD, Python |
 
 ---
-## Security Philosophy 
-
-## Security Foundations: Governancy & Framework 
-
-### CIA Triad 
-A foundations that helps informs organizations how conside risks when setting up systems and security policies. 
-* **Confidentionality:** Only authorized users can access specific assets of data.
-* **Integrity:** Data is correct, authetic and reliable.
-* **Availability:** Data is accessible to those who are authorized to acess it.
-
-### AAA Framework
-A three-process framework used to manage user access,enforced user policies and privileges, and measure the consumption of a network. 
-* **Authentication:** Verifying the identity of a use.
-* **Authorization:** Granting a user permission to access specifict resources.
-* **Accounting:** Tracking and logging what the user does for audit purposes. 
-
-### Governance Reference (APA 7th Edition)
-**Reference:**
- > McDermott, Amy (2026 February 11). *An Asteriod Ended the age of the dinosaurs. But How Did Their Regin Begin? Mysterious early Reptiles May Hold the Answer* Smithsonian magazine. https://www.smithsonianmag.com/science-nature/an-asteroid-ended-the-age-of-the-dinosaurs-but-how-did-their-reign-begin-mysterious-early-reptiles-may-hold-the-answer-180988178/
-
- **Reference:**
- > Gomez, A (2025 January 6). *What Is Cybersecurity Governace And Why Does It Matters?* Our lady of the Lake  Univeristy. https://www.ollusa.edu/blog/what-is-cybersecurity-governance.html
-
-The way that governace affecst cybersecurity are in different ways. The governace acts a a blueprint that guide the organizations team on to making sure the organization is protected and aligs with the goal and legal requirements the organizations has. Governaces sets the rules by assigning roles and responsibilities meaning someone must clearly who is dealing with what kind of information(data) or security system, everyone in an organizations must know what they are responsable for and take accountability for their actions.This tieds to accounting where actions can be traced and audited for security complices. Second way is the minimizations of any possible breaches in the systmes. An organization must stay on to day with thread actor tactics and update their systems security. Final is laws regarding data, governace ensure the organization follows regulations to avoid legal and financial penelties. All this is done to let the customer know that their data is safe and that they can thrust the organization with their data.  
